@@ -1,0 +1,19 @@
+@media screen and (min-width : 801px){
+    .city{
+        width: 50%;
+    }
+
+    .btn{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .city {
+        width: 80%
+    }
+
+    .btn {
+        width: 60%;
+    }
+}

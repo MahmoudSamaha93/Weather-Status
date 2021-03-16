@@ -2,3 +2,13 @@
     font-size: x-large;
     font-weight: bolder;
 }
+
+.card {
+    width: 30%;
+}
+
+@media screen and (max-width : 720px) {
+    .card {
+        width: 80%
+    }
+}

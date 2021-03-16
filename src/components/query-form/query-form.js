@@ -1,5 +1,6 @@
 import { Component } from "react";
 import Weather from "../weather-data/weather-data";
+import './form.css'
 
 class QueryForm extends Component {
     constructor() {
@@ -25,14 +26,14 @@ class QueryForm extends Component {
           <>
               <div className="col-12 mt-5 text-center">
                 <form className="form-group ml-auto mr-auto text-center">
-                  <input className="form-control rounded rounded-pill text-center mr-auto ml-auto w-50" 
+                  <input className="city form-control rounded rounded-pill text-center mr-auto ml-auto" 
                    type="text" 
                    placeholder="Enter City Name ..."
                    onChange={(e)=>{
                      this.setState({cityName: e.target.value})
                    }}
                   />
-                    <input className="form-control rounded rounded-pill text-light btn-dark btn btn-lg m-4 w-25"
+                    <input className="form-control rounded rounded-pill mr-auto ml-auto text-light btn-dark btn btn-lg m-4"
                         onClick={()=>{
                             this.getData();
                         }}

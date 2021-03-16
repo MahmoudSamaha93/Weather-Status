@@ -9,7 +9,7 @@ const Weather = (props)=>  {
           let tempCelesius = props.weatherInfo.main.temp - 273.15;
           return (
               <div className="row">
-                <div className="card text-center w-25 ml-auto mr-auto border-rounded">
+                <div className="card text-center ml-auto mr-auto border-rounded">
                   <div className="card-header text-weight-bolder bg-info">
                     {props.weatherInfo.name} - {props.weatherInfo.sys.country}
                   </div>
