@@ -20,7 +20,7 @@ const App = ()=> {
           </div>
         </BrowserRouter>
         <div className="row text-center">
-          <h5 className="text-center ml-auto mr-auto">
+          <h5 className="text-center ml-auto mr-auto mt-2">
             Copyrights&#169; reserved to <a href="https://linkedin.com/in/engmahmoudsamaha">Mahmoud Samaha</a>
           </h5>
         </div>
