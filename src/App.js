@@ -19,6 +19,11 @@ const App = ()=> {
             </Switch>
           </div>
         </BrowserRouter>
+        <div className="row text-center">
+          <h5 className="text-center ml-auto mr-auto">
+            Copyrights&#169; reserved to <a href="https://linkedin.com/in/engmahmoudsamaha">Mahmoud Samaha</a>
+          </h5>
+        </div>
       </div>
     );
 }
